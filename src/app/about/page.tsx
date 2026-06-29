@@ -45,7 +45,8 @@ export default function AboutPage() {
           />
 
           <CardContent>
-            <Typography variant="h4" fontWeight="bold">
+            {/* 🛠️ แก้ไขตรงนี้: ย้าย fontWeight เข้ามาอยู่ใน sx */}
+            <Typography variant="h4" sx={{ fontWeight: "bold" }}>
               About This Project
             </Typography>
 
@@ -55,21 +56,21 @@ export default function AboutPage() {
 
             <Divider sx={{ my: 3 }} />
 
-            <Stack spacing={2} textAlign="left">
+            <Stack spacing={2} sx={{ textAlign: "left" }}>
               <Typography>
-                👩‍💻 <b>ผู้พัฒนา:</b> Narissara Martsud
+                <b>ผู้พัฒนา:</b> Narissara Martsud
               </Typography>
 
               <Typography>
-                📚 <b>รายวิชา:</b> IN403101 Front-end Web Programming
+                <b>รายวิชา:</b> IN403101 Front-end Web Programming
               </Typography>
 
               <Typography>
-                🎓 <b>หลักสูตร:</b> Computer Science
+                <b>หลักสูตร:</b> Computer Science
               </Typography>
 
               <Typography>
-                🏫 <b>มหาวิทยาลัย:</b> Khon Kaen University
+                <b>มหาวิทยาลัย:</b> Khon Kaen University
               </Typography>
             </Stack>
 
