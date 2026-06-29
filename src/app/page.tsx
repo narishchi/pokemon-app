@@ -1,17 +1,16 @@
 "use client";
 import { useState, useEffect } from "react";
+import Link from "next/link";
 import {
   Typography,
   Container,
-  List,
-  ListItem,
-  ListItemText,
   Card,
   CardContent,
   Avatar,
   Grid,
-  CardActions,
   CardActionArea,
+  Box,
+  Button,
 } from "@mui/material";
 
 interface PokemonResponse {
@@ -39,8 +38,23 @@ export default function Home() {
   }, []);
 
   return (
+    <Box
+    sx={{
+      minHeight: "100vh",
+      background: "linear-gradient(to bottom, #9fc4e9, #1e496c)",
+      py: 5,
+    }}
+    >
     <Container>
       <Typography variant="h1">Pokemon App</Typography>
+      <Button
+        component={Link}
+        href="/about"
+        variant="contained"
+        sx={{ mt: 2, mb: 3 }}
+>
+  About This Project
+</Button>
       {/* ตรวจสอบว่า pokemonData มีค่าหรือไม่ ถ้ามีให้แสดงรายการ Pokemon */}
       {pokemonData && (
         <Grid container spacing={2}>
@@ -69,5 +83,6 @@ export default function Home() {
         </Grid>
       )}
     </Container>
+    </Box>
   );
 }
