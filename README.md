@@ -22,6 +22,7 @@
 ## Screen short.
 <img width="1454" height="793" alt="ภาพถ่ายหน้าจอ 2569-06-29 เวลา 19 29 30" src="https://github.com/user-attachments/assets/e5d280d2-88ae-45e2-b31a-461cb4486c51" />
 <img width="1469" height="789" alt="ภาพถ่ายหน้าจอ 2569-06-29 เวลา 19 30 41" src="https://github.com/user-attachments/assets/3233feba-1ce2-4fbb-a6f2-70be72bb9e3e" />
-<img width="1454" height="791" alt="ภาพถ่ายหน้าจอ 2569-06-29 เวลา 19 30 24" src="https://github.com/user-attachments/assets/fcac99e4-d0d3-41d2-892a-14ae99bad4fb" />
 <img width="1451" height="789" alt="ภาพถ่ายหน้าจอ 2569-06-29 เวลา 19 30 11" src="https://github.com/user-attachments/assets/99120b25-55a3-4836-91e2-58d31869c9a3" />
+<img width="1454" height="791" alt="ภาพถ่ายหน้าจอ 2569-06-29 เวลา 19 30 24" src="https://github.com/user-attachments/assets/fcac99e4-d0d3-41d2-892a-14ae99bad4fb" />
+
 
